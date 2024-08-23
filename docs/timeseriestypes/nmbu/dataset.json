@@ -1,0 +1,46 @@
+{
+    "tstype": "nmbu",
+    "tseries": [
+        {
+            "header": {
+                "id": {
+                    "stationid": "123456",
+                    "parameterid": "211",
+                    "sensor": "0",
+                    "level": 2.0
+                },
+                "extra": {
+                    "name": "Ås",
+                    "pos": {
+                        "lon": "10.782377132417821",
+                        "lat": "59.660422515239816"
+                    }
+                }
+            },
+            "observations": [
+                {
+                    "time": "2024-08-23T06:00:00Z",
+                    "body": {
+                        "value": "12.7",
+                        "status": "ok"
+                    }
+                },
+                {
+                    "time": "2024-08-23T06:00:10Z",
+                    "body": {
+                        "blob": "H4sICK3TTWYAA2V4YW1wbGUueG1sAO1bS2/bOBC+91cEuYciqXfgqkj...",
+                        "status": "ok"
+                    }
+                },
+                {
+                    "time": "2024-08-23T06:00:20Z",
+                    "body": {
+                        "value": "12.8",
+                        "blob": "H5sICK3TTWYAA2V4YW1wbGUueG1sAO1bS2/bOBC+91cEuYciqXfgqkj...",
+                        "status": "ok"
+                    }
+                }
+            ]
+        }
+    ]
+}
