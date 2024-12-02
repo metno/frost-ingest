@@ -1,0 +1,51 @@
+{
+  "tstype": "nmbu",
+  "version": "0.1.1",
+  "tseries": [
+    {
+      "header": {
+        "id": {
+          "stationid": "17852",
+          "parameterid": "211",
+          "sensor": "0",
+          "level": 2.0,
+          "typeId": "508"
+        },
+        "extra": {
+          "paramname": "Temperatur",
+          "description": "10 min average",
+          "cfname": "mean(air_temperature PT10M)",
+          "urlInstruemtCodeDescriptin": "https://arken.nmbu.no/~thomagra/met/term01.html",
+          "unit": "degC",
+          "pos": {
+            "lat": "58.941010",
+            "lon": "5.670380"
+          }
+        }
+      },
+      "observations": [
+        {
+          "time": "2021-10-31T10:25:30Z",
+          "body": {
+            "value": 23.4,
+            "qc_flag": "suspicious"
+          }
+        },
+        {
+          "time": "2021-10-31T10:35:30Z",
+          "body": {
+            "value": 22.8,
+            "qc_flag": "suspicious"
+          }
+        },
+        {
+          "time": "2021-10-31T10:45:30Z",
+          "body": {
+            "value": 22.1,
+            "qc_flag": "suspicious"
+          }
+        }
+      ]
+    }
+  ]
+}
